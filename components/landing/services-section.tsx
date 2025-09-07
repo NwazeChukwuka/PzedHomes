@@ -1,49 +1,52 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Utensils, Car, Wifi, Dumbbell, Waves, Users } from "lucide-react"
+import { Utensils, Waves, Users, Gamepad2, Wine, Coffee } from "lucide-react"
 
 const services = [
   {
-    name: "Restaurant & Bar",
+    name: "Restaurant & Dining",
     description: "Fine dining experience with local and international cuisine",
     icon: Utensils,
     price: "₦2,000 - ₦15,000",
-    images: ["/elegant-hotel-restaurant-with-fine-dining-setup.jpg", "/hotel-bar-with-premium-drinks-and-ambient-lighting.jpg"],
+    images: [
+      "/elegant-hotel-restaurant-with-fine-dining-setup.jpg",
+      "/hotel-bar-with-premium-drinks-and-ambient-lighting.jpg",
+    ],
   },
   {
-    name: "Valet Parking",
-    description: "Secure parking with professional valet service",
-    icon: Car,
-    price: "₦1,000/day",
-    images: ["/hotel-valet-parking-service-with-luxury-cars.jpg", "/secure-underground-hotel-parking-garage.jpg"],
+    name: "VIP Bar",
+    description: "Premium bar experience with exclusive drinks and ambiance",
+    icon: Wine,
+    price: "₦1,500 - ₦8,000",
+    images: ["/placeholder-wxmcn.png", "/placeholder-dhc1u.png"],
   },
   {
-    name: "High-Speed WiFi",
-    description: "Complimentary high-speed internet throughout the property",
-    icon: Wifi,
-    price: "Complimentary",
-    images: ["/hotel-business-center-with-computers-and-wifi.jpg", "/placeholder.svg?height=200&width=300"],
-  },
-  {
-    name: "Fitness Center",
-    description: "State-of-the-art gym equipment available 24/7",
-    icon: Dumbbell,
-    price: "Complimentary",
-    images: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+    name: "Pool Bar",
+    description: "Refreshing drinks and cocktails by the poolside",
+    icon: Coffee,
+    price: "₦1,000 - ₦5,000",
+    images: ["/placeholder-89f1k.png", "/placeholder-lq41y.png"],
   },
   {
     name: "Swimming Pool",
     description: "Outdoor pool with poolside service and relaxation area",
     icon: Waves,
-    price: "Complimentary",
-    images: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+    price: "Complimentary for guests",
+    images: ["/placeholder-gkxez.png", "/placeholder-wd6da.png"],
   },
   {
-    name: "Conference Rooms",
-    description: "Professional meeting spaces for business events",
+    name: "Games & Recreation",
+    description: "Entertainment facilities for leisure and fun activities",
+    icon: Gamepad2,
+    price: "₦500 - ₦2,000",
+    images: ["/placeholder-oji44.png", "/placeholder-7za48.png"],
+  },
+  {
+    name: "Wedding & Conference Halls",
+    description: "Elegant venues for weddings, conferences, and special events",
     icon: Users,
-    price: "₦25,000 - ₦100,000",
-    images: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+    price: "₦50,000 - ₦200,000",
+    images: ["/placeholder-xrqdh.png", "/professional-conference-room.png"],
   },
 ]
 

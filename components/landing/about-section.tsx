@@ -1,6 +1,6 @@
 "use client"
 
-import { Award, Users, MapPin, Clock } from "lucide-react"
+import { Award, Users, Clock, Wifi } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 const features = [
@@ -16,10 +16,10 @@ const features = [
       "Our dedicated team of hospitality professionals ensures every guest receives personalized attention and care.",
   },
   {
-    icon: MapPin,
-    title: "Prime Location",
+    icon: Wifi,
+    title: "Free High-Speed WiFi",
     description:
-      "Strategically located to provide easy access to business districts, shopping centers, and cultural attractions.",
+      "Complimentary high-speed internet access throughout the property for seamless connectivity during your stay.",
   },
   {
     icon: Clock,
@@ -37,19 +37,21 @@ export function AboutSection() {
             <h2 className="text-4xl font-bold text-slate-900 mb-6">About P-ZED Hotels & Suites</h2>
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>
-                P-ZED Hotels & Suites stands as a beacon of luxury and sophistication in the hospitality industry. Since
-                our establishment, we have been dedicated to creating unforgettable experiences for our guests through
-                exceptional service, elegant accommodations, and world-class amenities.
+                P-ZED Hotels & Suites stands as a beacon of luxury and sophistication in the hospitality industry.
+                Located in the heart of Abakaliki, Ebonyi State, we have been dedicated to creating unforgettable
+                experiences for our guests through exceptional service, elegant accommodations, and world-class
+                amenities.
               </p>
               <p>
                 Our commitment to excellence is reflected in every aspect of our operations, from our meticulously
-                designed rooms and suites to our award-winning restaurant and comprehensive business facilities. We
-                pride ourselves on being more than just a hotel – we are your home away from home.
+                designed rooms and suites to our award-winning restaurant and comprehensive business facilities. With
+                complimentary high-speed WiFi throughout the property, we ensure you stay connected while enjoying the
+                perfect blend of luxury and comfort.
               </p>
               <p>
                 Whether you're traveling for business or leisure, our team of dedicated professionals is committed to
-                ensuring your stay exceeds expectations. Experience the perfect blend of luxury, comfort, and
-                personalized service that defines the P-ZED difference.
+                ensuring your stay exceeds expectations. Experience the P-ZED difference with our 22 elegantly appointed
+                rooms, premium dining options, and exceptional hospitality that makes us your home away from home.
               </p>
             </div>
           </div>

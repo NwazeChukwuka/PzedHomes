@@ -10,20 +10,24 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+234 (0) 123 456 7890", "+234 (0) 987 654 3210"],
+    details: ["08157505978"],
     description: "24/7 Customer Support",
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["info@pzedhotels.com", "reservations@pzedhotels.com"],
+    details: ["pzedglobal@gmail.com"],
     description: "Quick Response Guaranteed",
   },
   {
     icon: MapPin,
     title: "Address",
-    details: ["123 Luxury Avenue", "Victoria Island, Lagos, Nigeria"],
-    description: "Prime Business District",
+    details: [
+      "2 Unity fm road, off Nwiboko enigwe street",
+      "by Unity fm junction, amike aba",
+      "Abakaliki, Ebonyi State",
+    ],
+    description: "Prime Location",
   },
   {
     icon: Clock,
