@@ -55,8 +55,11 @@ export function Navigation() {
             <Button variant="outline" asChild>
               <Link href="/auth/login">Login</Link>
             </Button>
+            <Button variant="outline" asChild>
+              <Link href="/auth/register">Sign Up</Link>
+            </Button>
             <Button asChild>
-              <Link href="/auth/register">Book Now</Link>
+              <Link href="/guest/booking">Book Now</Link>
             </Button>
           </div>
 
@@ -91,8 +94,11 @@ export function Navigation() {
                   <Button variant="outline" className="w-full bg-transparent" asChild>
                     <Link href="/auth/login">Login</Link>
                   </Button>
+                  <Button variant="outline" className="w-full bg-transparent" asChild>
+                    <Link href="/auth/register">Sign Up</Link>
+                  </Button>
                   <Button className="w-full" asChild>
-                    <Link href="/auth/register">Book Now</Link>
+                    <Link href="/guest/booking">Book Now</Link>
                   </Button>
                 </div>
               </div>
